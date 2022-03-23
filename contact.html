@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <title>Tomiwa_web developer</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./" class="nav-link">About  Me</a></li>
+                <li><a href="skills.html" class="nav-link">Skills and References</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="contact.html" class="nav-link">Contact me</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+              <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+              
+        </nav>
+    </header>
+     
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="MAILTO: bankolefemi09@gmail.com" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="40"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+         
+
+    <footer>
+        <nav>
+            
+               <ul>
+                   <li><a href="./">About Me</a></li>
+                   
+                   <li><a href="skills.html">Skills and References</a></li>
+                   <li><a href="projects.html">Projects</a></li>
+                   <li><a href="contact.html">Contact me</a></li>
+                   
+               </ul>
+            
+        </nav>
+   </footer>
+     <!-- Website scripts -->
+     <script src="./app.js"></script>
+
+     <!-- Ion icons scripts -->
+     <script
+       type="module"
+       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+     ></script>
+     <script
+       nomodule
+       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+     ></script>
+</body>
+</html>
